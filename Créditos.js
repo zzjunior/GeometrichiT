@@ -7,7 +7,7 @@ function créditos(){
     //Creditos do jogo
     textSize(18);
     fill(255,255,0);
-    text("Geometric hiT é um jogo produzido com base nos dados e descrição de um educador do ColabEduc. Mais informações sobre o jogo, e sobre Educador no site: http://www.colabeduc.org/descricao/show/32", 120,100, 400);
+    text("Geometric hiT é um jogo produzido com base nos dados e descrição de um educador do ColabEduc, que é destinado para crianças do 2°e 3° do fundamental. Mais informações sobre o jogo, e sobre Educador no site: http://www.colabeduc.org/descricao/show/32", 120,100, 400);
     textSize(22);
     fill(255,255,0);
     text("Programador :",25, 240);

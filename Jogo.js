@@ -35,7 +35,7 @@ if(keyIsDown(RIGHT_ARROW))
      // blocos retangulares
   for (i=0; i<5; i++){
       image(brinquedoR[i], vRx[i], vRy[i], 40,20); 
-      vRy[i] = vRy[i] + 1;
+      vRy[i] = vRy[i] + 0.8;
      //verifica distancia 
      if(vRy[i] > 420 && vRx[i] > x - 35 && vRx[i] < x + 35){ 
         pontos[1] = pontos[1] +1;
@@ -107,7 +107,7 @@ function fase2() {
    // blocos quadrados
   for (i=0; i<6; i++){
       image(brinquedoQ[i], vQx[i], vQy[i], 20,20); 
-      vQy[i] = vQy[i] + 1;
+      vQy[i] = vQy[i] + 0.8;
       // verificar a distância 
      if(vQy[i]>420 && vQx[i]>x-35 && vQx[i]<x+35){
         pontos[0] = pontos[0]+1;
